@@ -1,0 +1,40 @@
+{
+    "name": "qsoftware/wheel-form-counter",
+    "description": "Count for wheel form plugin entries",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "wheelformcounter"
+    ],
+    "support": {
+        "docs": "https://github.com/xsinisa/wheel-form-counter/blob/master/README.md",
+        "issues": "https://github.com/xsinisa/wheel-form-counter/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sinisa Randic",
+            "homepage": "https://github.com/xsinisa"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "qsoftware\\wheelformcounter\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "WheelFormCounter",
+        "handle": "wheel-form-counter",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/xsinisa/wheel-form-counter/master/CHANGELOG.md",
+        "class": "qsoftware\\wheelformcounter\\WheelFormCounter"
+    }
+}
